@@ -5,53 +5,47 @@
       <![CDATA[login]]>
     </line>
     <line>
-      <![CDATA[Romeo Juliet]]>
-    </line>
-    <line>
       <![CDATA[logOut]]>
     </line>
     <line>
       <![CDATA[closeBrowser]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-05-16T11:43:03 IST" name="Default suite" finished-at="2025-05-16T11:43:15 IST" duration-ms="12695">
+  <suite started-at="2025-05-21T22:27:58 IST" name="Default suite" finished-at="2025-05-21T22:28:20 IST" duration-ms="22132">
     <groups>
     </groups>
-    <test started-at="2025-05-16T11:43:03 IST" name="Default test" finished-at="2025-05-16T11:43:15 IST" duration-ms="12695">
-      <class name="com.kasua.testscript.PriceBookModule">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.kasua.testscript.PriceBookModule@7530ad9c]" started-at="2025-05-16T11:43:03 IST" name="openBrowser" finished-at="2025-05-16T11:43:07 IST" duration-ms="3924" status="PASS">
+    <test started-at="2025-05-21T22:27:58 IST" name="Default test" finished-at="2025-05-21T22:28:20 IST" duration-ms="22132">
+      <class name="com.kasua.testscript.CampaignModule">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.kasua.testscript.CampaignModule@7d8704ef]" started-at="2025-05-21T22:27:58 IST" name="openBrowser" finished-at="2025-05-21T22:28:00 IST" duration-ms="2172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.kasua.testscript.PriceBookModule@7530ad9c]" started-at="2025-05-16T11:43:07 IST" name="login" finished-at="2025-05-16T11:43:08 IST" duration-ms="1800" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.kasua.testscript.CampaignModule@7d8704ef]" started-at="2025-05-21T22:28:00 IST" name="login" finished-at="2025-05-21T22:28:03 IST" duration-ms="2803" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[login]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="createPriceBook()[pri:0, instance:com.kasua.testscript.PriceBookModule@7530ad9c]" started-at="2025-05-16T11:43:08 IST" name="createPriceBook" finished-at="2025-05-16T11:43:14 IST" duration-ms="5296" status="PASS">
+        <test-method signature="createCampaign()[pri:0, instance:com.kasua.testscript.CampaignModule@7d8704ef]" started-at="2025-05-21T22:28:03 IST" name="createCampaign" finished-at="2025-05-21T22:28:18 IST" duration-ms="14824" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Romeo Juliet]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- createPriceBook -->
-        <test-method is-config="true" signature="logOut()[pri:0, instance:com.kasua.testscript.PriceBookModule@7530ad9c]" started-at="2025-05-16T11:43:14 IST" name="logOut" finished-at="2025-05-16T11:43:14 IST" duration-ms="205" status="PASS">
+        </test-method> <!-- createCampaign -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:com.kasua.testscript.CampaignModule@7d8704ef]" started-at="2025-05-21T22:28:18 IST" name="logOut" finished-at="2025-05-21T22:28:18 IST" duration-ms="428" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[logOut]]>
             </line>
           </reporter-output>
         </test-method> <!-- logOut -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.kasua.testscript.PriceBookModule@7530ad9c]" started-at="2025-05-16T11:43:14 IST" name="closeBrowser" finished-at="2025-05-16T11:43:15 IST" duration-ms="1399" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.kasua.testscript.CampaignModule@7d8704ef]" started-at="2025-05-21T22:28:18 IST" name="closeBrowser" finished-at="2025-05-21T22:28:20 IST" duration-ms="1720" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[closeBrowser]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.kasua.testscript.PriceBookModule -->
+      </class> <!-- com.kasua.testscript.CampaignModule -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.kasua.testscript.PriceBookModule">
+      <class name="com.kasua.testscript.CampaignModule">
         <methods>
           <include name="openBrowser"/>
           <include name="closeBrowser"/>
           <include name="logOut"/>
-          <include name="createPriceBook"/>
           <include name="login"/>
+          <include name="createCampaign"/>
         </methods>
-      </class> <!-- com.kasua.testscript.PriceBookModule -->
+      </class> <!-- com.kasua.testscript.CampaignModule -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

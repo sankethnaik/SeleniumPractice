@@ -19,7 +19,7 @@ public class FileLib {
 	return data;		
 	}
 	public String getExcelData(String sheetName,int row,int cell) throws EncryptedDocumentException, IOException {
-	FileInputStream fis=new FileInputStream("./src/test/resources/data/testscript.xlsx");
+	FileInputStream fis=new FileInputStream("./src/test/resources/data/TestScript.xlsx");
 	Workbook wb = WorkbookFactory.create(fis);
 	String data = wb.getSheet(sheetName).getRow(row).getCell(cell).getStringCellValue();
 	return data;	

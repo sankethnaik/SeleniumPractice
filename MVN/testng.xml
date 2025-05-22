@@ -5,5 +5,5 @@
     <classes>
       <class name="com.kasua.testscript.AccountModule"/>
     </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+  </test> 
+</suite> 

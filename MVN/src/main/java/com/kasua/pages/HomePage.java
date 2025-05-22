@@ -8,10 +8,22 @@ import org.openqa.selenium.support.PageFactory;
 public class HomePage {
 @FindBy(xpath = "//div[@id='tabcontainer']/descendant::a[text()='Price Books']")
 private WebElement priceBookLink;
+
 @FindBy(id="scrollright")
 private WebElement scrollRightBtn;
+
+@FindBy(xpath="//a[text()='Campaigns']")
+private WebElement campaignLink;
+
+@FindBy(xpath="//a[text()='Dashboards']")
+private WebElement dashboardLink;
+
+@FindBy(xpath="//input[@value='Add Component']")
+private WebElement addComponent;
+
 @FindBy(partialLinkText ="Logout")
 private WebElement logoutLink;
+
 public HomePage(WebDriver driver) {
 	PageFactory.initElements(driver, this);
 }
@@ -21,6 +33,19 @@ public WebElement getPriceBookLink() {
 public WebElement getScrollRightBtn() {
 	return scrollRightBtn;
 }
+
+public WebElement getCampaignLink() {
+	return campaignLink;
+}
+
+public WebElement getDashboardLink() {
+	return dashboardLink;
+}
+
+public void setAddComponent() {
+	addComponent.click();
+}
+
 public void setLogout() {
 	logoutLink.click();
 }

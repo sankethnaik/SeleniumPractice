@@ -32,7 +32,7 @@ public class BaseClass {
 	}	
 	@BeforeMethod
 	public void login() throws IOException {
-		Reporter.log("login",true);	
+		Reporter.log("login",true);
 		String url = f.getPropertyData("url");
 		driver.get(url);
 		String un = f.getPropertyData("username");
