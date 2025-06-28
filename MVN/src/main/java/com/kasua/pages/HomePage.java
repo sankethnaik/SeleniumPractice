@@ -24,6 +24,9 @@ private WebElement addComponent;
 @FindBy(partialLinkText ="Logout")
 private WebElement logoutLink;
 
+@FindBy(xpath="//a[text()='Dashboards']")
+private WebElement dashBoard;
+
 public HomePage(WebDriver driver) {
 	PageFactory.initElements(driver, this);
 }
@@ -48,6 +51,10 @@ public void setAddComponent() {
 
 public void setLogout() {
 	logoutLink.click();
+}
+
+public void setDashBoard() {
+	dashBoard.click();
 }
 
 }
