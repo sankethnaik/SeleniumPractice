@@ -11,41 +11,41 @@
       <![CDATA[closeBrowser]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-06-19T10:58:23 IST" name="Default suite" finished-at="2025-06-19T10:58:50 IST" duration-ms="26759">
+  <suite started-at="2025-07-04T15:18:34 IST" name="Default suite" finished-at="2025-07-04T15:18:57 IST" duration-ms="22446">
     <groups>
     </groups>
-    <test started-at="2025-06-19T10:58:23 IST" name="Default test" finished-at="2025-06-19T10:58:50 IST" duration-ms="26759">
-      <class name="com.kasua.testscript.CampaignModule">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.kasua.testscript.CampaignModule@7d8704ef]" started-at="2025-06-19T10:58:23 IST" name="openBrowser" finished-at="2025-06-19T10:58:27 IST" duration-ms="3517" status="PASS">
+    <test started-at="2025-07-04T15:18:34 IST" name="Default test" finished-at="2025-07-04T15:18:57 IST" duration-ms="22446">
+      <class name="com.kasua.testscript.DashboardModule">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.kasua.testscript.DashboardModule@7d8704ef]" started-at="2025-07-04T15:18:34 IST" name="openBrowser" finished-at="2025-07-04T15:18:36 IST" duration-ms="2010" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.kasua.testscript.CampaignModule@7d8704ef]" started-at="2025-06-19T10:58:27 IST" name="login" finished-at="2025-06-19T10:58:30 IST" duration-ms="3299" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.kasua.testscript.DashboardModule@7d8704ef]" started-at="2025-07-04T15:18:36 IST" name="login" finished-at="2025-07-04T15:18:39 IST" duration-ms="2518" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[login]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="createCampaign()[pri:0, instance:com.kasua.testscript.CampaignModule@7d8704ef]" started-at="2025-06-19T10:58:30 IST" name="createCampaign" finished-at="2025-06-19T10:58:48 IST" duration-ms="17912" status="PASS">
+        <test-method signature="createDashBoard()[pri:0, instance:com.kasua.testscript.DashboardModule@7d8704ef]" started-at="2025-07-04T15:18:39 IST" name="createDashBoard" finished-at="2025-07-04T15:18:56 IST" duration-ms="17209" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createCampaign -->
-        <test-method is-config="true" signature="logOut()[pri:0, instance:com.kasua.testscript.CampaignModule@7d8704ef]" started-at="2025-06-19T10:58:48 IST" name="logOut" finished-at="2025-06-19T10:58:48 IST" duration-ms="338" status="PASS">
+        </test-method> <!-- createDashBoard -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:com.kasua.testscript.DashboardModule@7d8704ef]" started-at="2025-07-04T15:18:56 IST" name="logOut" finished-at="2025-07-04T15:18:56 IST" duration-ms="202" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[logOut]]>
             </line>
           </reporter-output>
         </test-method> <!-- logOut -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.kasua.testscript.CampaignModule@7d8704ef]" started-at="2025-06-19T10:58:48 IST" name="closeBrowser" finished-at="2025-06-19T10:58:50 IST" duration-ms="1552" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.kasua.testscript.DashboardModule@7d8704ef]" started-at="2025-07-04T15:18:56 IST" name="closeBrowser" finished-at="2025-07-04T15:18:57 IST" duration-ms="350" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[closeBrowser]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.kasua.testscript.CampaignModule -->
+      </class> <!-- com.kasua.testscript.DashboardModule -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

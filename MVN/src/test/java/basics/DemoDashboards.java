@@ -34,6 +34,7 @@ public class DemoDashboards {
 		//driver.findElement(By.partialLinkText("Logout")).click();
 		//driver.quit();
 		driver.findElement(By.xpath("//td[text()='New Component']/../td[2]/a[text()='Del']")).click();Thread.sleep(2000);
+		
 		Alert a=driver.switchTo().alert();Thread.sleep(2000);
 		a.accept();
 		

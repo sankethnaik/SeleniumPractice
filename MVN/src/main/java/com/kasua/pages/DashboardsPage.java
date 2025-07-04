@@ -18,6 +18,15 @@ public class DashboardsPage {
 	
 	@FindBy(xpath="//input[@value='Next']")
 	private WebElement clickNext;
+	
+	@FindBy(xpath="//input[@value='Finish']")
+	private WebElement clickFinish;
+	
+	@FindBy(xpath="//td[.='New Component']")
+	private WebElement edbname;
+	
+	@FindBy(xpath="//td[text()='New Component']/../td[2]/a[text()='Del']")
+	private WebElement deletedb;
 
 	public DashboardsPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
@@ -31,13 +40,24 @@ public class DashboardsPage {
 		enterCompName.sendKeys(comp);
 	}
 	
-	public void getSrcReport() {
-		srcReport.click();
+	public WebElement getSrcReport() {
+		return srcReport;
 	}
 	
 	public void setClickNext() {
 		clickNext.click();
 	}
 	
+	public void setClickFinish() {
+		clickFinish.click();
+	}
+	
+	public String getEdbname() {
+		return edbname.getText();
+	}
+	
+	public void setDeletedb() {
+		deletedb.click();
+	}
 
 }
