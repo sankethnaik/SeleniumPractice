@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.IRetryAnalyzer;
 import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -16,7 +17,7 @@ import com.kasua.pages.PriceBookDetailsPage;
 import com.kasua.pages.PriceBookPage;
 @Listeners(com.kasua.generic.ListenerImplementation.class)
 public class PriceBookModule extends BaseClass{
-	@Test
+	@Test(retryAnalyzer = RetryMechanism.class)
 public void createPriceBook() throws EncryptedDocumentException, IOException {
 		String expectedBookName = f.getExcelData("CreatePriceBook", 1, 0);
 		HomePage h=new HomePage(driver);

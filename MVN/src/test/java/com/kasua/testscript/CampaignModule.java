@@ -13,7 +13,7 @@ import com.kasua.pages.HomePage;
 
 public class CampaignModule extends BaseClass {
 	
-	@Test
+	@Test(retryAnalyzer = RetryMechanism.class)
 	
 	public void createCampaign() throws EncryptedDocumentException, IOException, InterruptedException {
 		String expectedCampaign = f.getExcelData("CreateCampaign",1,0);

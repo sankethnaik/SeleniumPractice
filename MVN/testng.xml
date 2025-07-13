@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="Test1">
+    <classes>
+      <class name="com.kasua.testscript.DashboardModule"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test2">
+    <classes>
+      <class name="com.kasua.testscript.CampaignModule"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test3">
+    <classes>
+      <class name="com.kasua.testscript.PriceBookModule"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test4">
     <classes>
       <class name="com.kasua.testscript.AccountModule"/>
     </classes>
-  </test> 
-</suite> 
+  </test> <!-- Test -->
+  <test thread-count="5" name="Test5">
+    <classes>
+      <class name="com.kasua.testscript.PotentialModule"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

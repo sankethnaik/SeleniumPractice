@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
     <line>
+      <![CDATA[AccountModule]]>
+    </line>
+    <line>
+      <![CDATA[PotentialModule]]>
+    </line>
+    <line>
       <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[Romeo Juliet]]>
+    </line>
+    <line>
+      <![CDATA[logOut]]>
+    </line>
+    <line>
+      <![CDATA[closeBrowser]]>
+    </line>
+    <line>
+      <![CDATA[logOut]]>
+    </line>
+    <line>
+      <![CDATA[closeBrowser]]>
     </line>
     <line>
       <![CDATA[logOut]]>
@@ -11,34 +38,125 @@
       <![CDATA[closeBrowser]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-07-04T15:18:34 IST" name="Default suite" finished-at="2025-07-04T15:18:57 IST" duration-ms="22446">
+  <suite started-at="2025-07-14T00:13:16 IST" name="Suite" finished-at="2025-07-14T00:14:09 IST" duration-ms="53160">
     <groups>
     </groups>
-    <test started-at="2025-07-04T15:18:34 IST" name="Default test" finished-at="2025-07-04T15:18:57 IST" duration-ms="22446">
-      <class name="com.kasua.testscript.DashboardModule">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.kasua.testscript.DashboardModule@7d8704ef]" started-at="2025-07-04T15:18:34 IST" name="openBrowser" finished-at="2025-07-04T15:18:36 IST" duration-ms="2010" status="PASS">
+    <test started-at="2025-07-14T00:13:16 IST" name="Test5" finished-at="2025-07-14T00:13:16 IST" duration-ms="217">
+      <class name="com.kasua.testscript.PotentialModule">
+        <test-method signature="demo()[pri:0, instance:com.kasua.testscript.PotentialModule@3e96bacf]" started-at="2025-07-14T00:13:16 IST" name="demo" finished-at="2025-07-14T00:13:16 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[PotentialModule]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- com.kasua.testscript.PotentialModule -->
+    </test> <!-- Test5 -->
+    <test started-at="2025-07-14T00:13:16 IST" name="Test4" finished-at="2025-07-14T00:13:16 IST" duration-ms="217">
+      <class name="com.kasua.testscript.AccountModule">
+        <test-method signature="demo()[pri:0, instance:com.kasua.testscript.AccountModule@32910148]" started-at="2025-07-14T00:13:16 IST" name="demo" finished-at="2025-07-14T00:13:16 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[AccountModule]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- com.kasua.testscript.AccountModule -->
+    </test> <!-- Test4 -->
+    <test started-at="2025-07-14T00:13:16 IST" name="Test3" finished-at="2025-07-14T00:13:57 IST" duration-ms="41133">
+      <class name="com.kasua.testscript.PriceBookModule">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.kasua.testscript.PriceBookModule@21b2e768]" started-at="2025-07-14T00:13:16 IST" name="openBrowser" finished-at="2025-07-14T00:13:34 IST" duration-ms="17690" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.kasua.testscript.DashboardModule@7d8704ef]" started-at="2025-07-04T15:18:36 IST" name="login" finished-at="2025-07-04T15:18:39 IST" duration-ms="2518" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.kasua.testscript.PriceBookModule@21b2e768]" started-at="2025-07-14T00:13:34 IST" name="login" finished-at="2025-07-14T00:13:45 IST" duration-ms="10795" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[login]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="createDashBoard()[pri:0, instance:com.kasua.testscript.DashboardModule@7d8704ef]" started-at="2025-07-04T15:18:39 IST" name="createDashBoard" finished-at="2025-07-04T15:18:56 IST" duration-ms="17209" status="PASS">
+        <test-method signature="createPriceBook()[pri:0, instance:com.kasua.testscript.PriceBookModule@21b2e768]" started-at="2025-07-14T00:13:45 IST" name="createPriceBook" finished-at="2025-07-14T00:13:55 IST" duration-ms="10952" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Romeo Juliet]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- createDashBoard -->
-        <test-method is-config="true" signature="logOut()[pri:0, instance:com.kasua.testscript.DashboardModule@7d8704ef]" started-at="2025-07-04T15:18:56 IST" name="logOut" finished-at="2025-07-04T15:18:56 IST" duration-ms="202" status="PASS">
+        </test-method> <!-- createPriceBook -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:com.kasua.testscript.PriceBookModule@21b2e768]" started-at="2025-07-14T00:13:56 IST" name="logOut" finished-at="2025-07-14T00:13:56 IST" duration-ms="518" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[logOut]]>
             </line>
           </reporter-output>
         </test-method> <!-- logOut -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.kasua.testscript.DashboardModule@7d8704ef]" started-at="2025-07-04T15:18:56 IST" name="closeBrowser" finished-at="2025-07-04T15:18:57 IST" duration-ms="350" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.kasua.testscript.PriceBookModule@21b2e768]" started-at="2025-07-14T00:13:56 IST" name="closeBrowser" finished-at="2025-07-14T00:13:57 IST" duration-ms="1051" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closeBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.kasua.testscript.PriceBookModule -->
+    </test> <!-- Test3 -->
+    <test started-at="2025-07-14T00:13:16 IST" name="Test2" finished-at="2025-07-14T00:14:05 IST" duration-ms="49009">
+      <class name="com.kasua.testscript.CampaignModule">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.kasua.testscript.CampaignModule@2f465398]" started-at="2025-07-14T00:13:16 IST" name="openBrowser" finished-at="2025-07-14T00:13:34 IST" duration-ms="17721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.kasua.testscript.CampaignModule@2f465398]" started-at="2025-07-14T00:13:34 IST" name="login" finished-at="2025-07-14T00:13:45 IST" duration-ms="10754" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createCampaign()[pri:0, instance:com.kasua.testscript.CampaignModule@2f465398]" started-at="2025-07-14T00:13:45 IST" name="createCampaign" finished-at="2025-07-14T00:14:04 IST" duration-ms="19767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampaign -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:com.kasua.testscript.CampaignModule@2f465398]" started-at="2025-07-14T00:14:04 IST" name="logOut" finished-at="2025-07-14T00:14:05 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logOut]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.kasua.testscript.CampaignModule@2f465398]" started-at="2025-07-14T00:14:05 IST" name="closeBrowser" finished-at="2025-07-14T00:14:05 IST" duration-ms="431" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[closeBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.kasua.testscript.CampaignModule -->
+    </test> <!-- Test2 -->
+    <test started-at="2025-07-14T00:13:16 IST" name="Test1" finished-at="2025-07-14T00:14:09 IST" duration-ms="53160">
+      <class name="com.kasua.testscript.DashboardModule">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.kasua.testscript.DashboardModule@7d8704ef]" started-at="2025-07-14T00:13:16 IST" name="openBrowser" finished-at="2025-07-14T00:13:34 IST" duration-ms="17477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.kasua.testscript.DashboardModule@7d8704ef]" started-at="2025-07-14T00:13:34 IST" name="login" finished-at="2025-07-14T00:13:45 IST" duration-ms="11010" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="createDashBoard()[pri:0, instance:com.kasua.testscript.DashboardModule@7d8704ef]" started-at="2025-07-14T00:13:45 IST" name="createDashBoard" finished-at="2025-07-14T00:14:08 IST" duration-ms="23869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDashBoard -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:com.kasua.testscript.DashboardModule@7d8704ef]" started-at="2025-07-14T00:14:08 IST" name="logOut" finished-at="2025-07-14T00:14:09 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logOut]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.kasua.testscript.DashboardModule@7d8704ef]" started-at="2025-07-14T00:14:09 IST" name="closeBrowser" finished-at="2025-07-14T00:14:09 IST" duration-ms="471" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[closeBrowser]]>
@@ -46,6 +164,6 @@
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.kasua.testscript.DashboardModule -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
 </testng-results>
